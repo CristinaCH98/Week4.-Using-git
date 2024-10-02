@@ -78,10 +78,10 @@ git add
 git commit -m ""
 
 ```bash
-
+python ROSALIND_problem72.py ROSALINDexample.fasta
 ```
 
-> OUTPUT:
+> OUTPUT: Output_Rosalind72.txt
 
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded  

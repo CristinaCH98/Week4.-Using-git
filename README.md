@@ -29,7 +29,12 @@ nano Gene_finder_adapted2.py
 touch example1.fasta   
 nano example1.fasta   
 
-python Gene_finder_adapted2.py example1.fasta Output2.txt  
+git add 
+git commit -m 
+
+```bash
+python Gene_finder_adapted2.py example1.fasta Output2.txt
+``` 
 Translating ORFs: 100%| ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 23899.17it/s]  
 >ORF_27_93  
 ATGATGCTAGCTAACGTAGCTAGCTATACGATCGATGACGTAGCTGATGCTGGTACGATATCGTAG  
@@ -53,6 +58,9 @@ Job for file example1.fasta finished
 touch Gene_finder_adapted2.py  
 nano Gene_finder_adapted2.py
 
+git add Gene_finder_adapted2.py ALL_ORFS.txt 
+git commit -m "Update Gene_finder_adapted2.py ALL_ORFS.txt"
+
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_adapted2.py {} ALL_ORFS.txt \;  
 ```
@@ -61,3 +69,8 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 -rw-r--r-- 1 chuyascm g-chuyascm 60M Oct  2 16:25 ALL_ORFS.txt  
 
 > OUTPUT: ALL_ORFS.txt
+
+# Question 5. 
+### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes - Filtration (-l 100)
+
+

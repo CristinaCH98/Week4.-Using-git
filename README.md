@@ -39,8 +39,8 @@ nano Gene_finder_adapted2.py
 touch example1.fasta   
 nano example1.fasta   
 
-git add 
-git commit -m 
+git add Gene_finder_adapted2.py example1.fasta  
+git commit -m "Update Gene_finder_adapted2.py example1.fasta"  
 
 ```bash
 python Gene_finder_adapted2.py example1.fasta Output2.txt

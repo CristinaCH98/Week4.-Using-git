@@ -90,3 +90,25 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 -rw-r--r-- 1 chuyascm g-chuyascm 45M Oct  2 17:16 FILTERED_output1.txt  
 
 > OUTPUT: FILTERED_output1.txt 
+
+# Question 6.  
+### Find all filtered Open Reading Frames - ribosome binding site (RBS)
+
+touch 
+nano 
+
+git add
+git commit -m
+
+```bash
+
+```
+#Checkpoint 
+
+
+> OUTPUT:
+
+
+# Save on Git Repository
+ 
+git push -u origin main 

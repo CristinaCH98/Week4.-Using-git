@@ -68,20 +68,20 @@ git commit -m "Output2.txt"
 # Question 3. 
 ### Open Reading Frame problem on Rosalind (Problem 72)
 
-touch 
-nano
+touch ROSALIND_problem72.py  
+nano ROSALIND_problem72.py  
 
-touch 
-nano
+touch ROSALINDexample.fasta  
+nano ROSALINDexample.fasta  
 
-git add ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt
-git commit -m "Update ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt"
+git add ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt  
+git commit -m "Update ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt"  
 
 ```bash
 python ROSALIND_problem72.py ROSALINDexample.fasta
 ```
 
-> OUTPUT: Output_Rosalind72.txt
+> OUTPUT: Output_Rosalind72.txt  
 
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded  

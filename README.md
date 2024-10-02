@@ -139,7 +139,7 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
  ### File sizes   
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh RBS_output_problem6.txt  
 -rw-r--r-- 1 chuyascm g-chuyascm 7.9K Oct  2 20:22 RBS_output_problem6.txt  
- ### Lines number   
+ ### The number of lines  
 [chuyascm@login509-02-r Week4_-Using-git]$ wc -l RBS_output_problem6.txt  
 26 RBS_output_problem6.txt  
 

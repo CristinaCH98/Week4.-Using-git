@@ -145,5 +145,5 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 
 # Save - Git Repository 
 
-git pull origin main
-git push --set-upstream origin main
+git pull origin main  
+git push --set-upstream origin main  

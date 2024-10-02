@@ -21,6 +21,7 @@ git branch -m master main
 git status # check point  
 
 # Question 1.
+### Three possible reading frames 
 
 touch Gene_finder.py  
 nano Gene_finder.py  
@@ -33,6 +34,8 @@ python Gene_finder.py example1.fasta > Output1.txt
 ```
 
 # Question 2.
+### All six possible reading frames for genes.
+
 touch Gene_finder_adapted2.py    
 nano Gene_finder_adapted2.py    
 

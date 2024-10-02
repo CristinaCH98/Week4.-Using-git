@@ -53,8 +53,9 @@ Job for file example1.fasta finished
 touch Gene_finder_adapted2.py  
 nano Gene_finder_adapted2.py
 
+```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_adapted2.py {} ALL_ORFS.txt \;  
-  
+```
 #Checkpoint  
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh ALL_ORFS.txt  
 -rw-r--r-- 1 chuyascm g-chuyascm 60M Oct  2 16:25 ALL_ORFS.txt  

@@ -65,6 +65,24 @@ Job for file example1.fasta finished
 git add Output2.txt  
 git commit -m "Output2.txt"  
 
+# Question 3. 
+### Open Reading Frame problem on Rosalind (Problem 72)
+
+touch 
+nano
+
+touch 
+nano
+
+git add
+git commit -m ""
+
+```bash
+
+```
+
+> OUTPUT:
+
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded  
 

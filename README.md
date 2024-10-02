@@ -129,7 +129,7 @@ git add
 git commit -m
 
 ```bash
-
+find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_RBS.py {} RBS_output1.txt -l 100 -r AGGAGG -u 20 \;
 ```
 #Checkpoint 
 

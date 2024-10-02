@@ -20,6 +20,34 @@ git init
 git branch -m master main  
 git status # check point  
 
+
+
+# Question 3.
+touch Gene_finder_adapted2.py    
+nano Gene_finder_adapted2.py    
+
+touch example1.fasta   
+nano example1.fasta   
+
+[chuyascm@login509-02-r Week4_-Using-git]$ python Gene_finder_adapted2.py example1.fasta Output2.txt
+Translating ORFs: 100%| 
+██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 23899.17it/s]  
+>ORF_27_93  
+ATGATGCTAGCTAACGTAGCTAGCTATACGATCGATGACGTAGCTGATGCTGGTACGATATCGTAG  
+>ORF_19_31  
+ATGCGTAAATGA  
+>ORF_73_97  
+ATGCTGGTACGATATCGTAGCTAG  
+>ORF_61_70  
+ATGACGTAG   
+>ORF_30_93  
+ATGCTAGCTAACGTAGCTAGCTATACGATCGATGACGTAGCTGATGCTGGTACGATATCGTAG  
+>ORF_0_12  
+ATGCGTACGTAG  
+Job for file example1.fasta finished  
+
+>OUTPUT: Output2.txt  
+
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded
 

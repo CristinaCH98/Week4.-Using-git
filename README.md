@@ -52,6 +52,9 @@ Job for file example1.fasta finished
 
 >OUTPUT: Output2.txt  
 
+git add Output2.txt  
+git commit -m "Output2.txt"  
+
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded  
 
@@ -74,3 +77,5 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 ### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes - Filtration (-l 100)
 
 
+git add Gene_finder_filtered.py FILTERED_output1.txt  
+git commit -m "Gene_finder_filtered.py FILTERED_output1.txt"  

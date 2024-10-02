@@ -29,7 +29,7 @@ nano Gene_finder_adapted2.py
 touch example1.fasta   
 nano example1.fasta   
 
-python Gene_finder_adapted2.py example1.fasta Output2.txt
+python Gene_finder_adapted2.py example1.fasta Output2.txt  
 Translating ORFs: 100%| 
 ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 23899.17it/s]  
 >ORF_27_93  

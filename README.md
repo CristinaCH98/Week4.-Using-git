@@ -21,8 +21,9 @@ git branch -m master main
 git status # check point  
 
 # Question 1.
-touch   
-nano  
+
+touch Gene_finder.py  
+nano Gene_finder.py  
 
 git add Gene_finder.py Output1.txt  
 git commit -m "Update Gene_finder.py Output1.txt"  

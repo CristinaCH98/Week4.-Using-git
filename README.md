@@ -131,14 +131,14 @@ git commit -m "Update RBS_output_problem6.txt  Gene_finder_RBS.py"
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_RBS.py {} RBS_output1.txt -l 100 -r AGGAGG -u 20 \;
 ```
-#Checkpoint 
+#Checkpoint  
 
- ### file sizes 
-[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh RBS_output_problem6.txt
--rw-r--r-- 1 chuyascm g-chuyascm 7.9K Oct  2 20:22 RBS_output_problem6.txt
- ### lines 
-[chuyascm@login509-02-r Week4_-Using-git]$ wc -l RBS_output_problem6.txt
-26 RBS_output_problem6.txt
+ ### file sizes   
+[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh RBS_output_problem6.txt  
+-rw-r--r-- 1 chuyascm g-chuyascm 7.9K Oct  2 20:22 RBS_output_problem6.txt  
+ ### lines number   
+[chuyascm@login509-02-r Week4_-Using-git]$ wc -l RBS_output_problem6.txt  
+26 RBS_output_problem6.txt  
 
 > OUTPUT: RBS_output_problem6.txt
 

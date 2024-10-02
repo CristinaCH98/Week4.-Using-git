@@ -20,7 +20,16 @@ git init
 git branch -m master main  
 git status # check point  
 
+# Question 1.
+touch 
+nano 
 
+git add Gene_finder.py Output1.txt
+git commit -m "Update Gene_finder.py Output1.txt"
+
+```bash
+python Gene_finder.py example1.fasta > Output1.txt
+```
 
 # Question 2.
 touch Gene_finder_adapted2.py    

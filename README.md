@@ -86,20 +86,20 @@ python ROSALIND_problem72.py ROSALINDexample.fasta
 # Question 4. 
 ### Find all Open Reading Frames in the 14 genomes you downloaded  
 
-touch Gene_finder_adapted2.py  
-nano Gene_finder_adapted2.py
+touch Gene_finder_adapted2.py    
+nano Gene_finder_adapted2.py  
 
-git add Gene_finder_adapted2.py ALL_ORFS.txt 
-git commit -m "Update Gene_finder_adapted2.py ALL_ORFS.txt"
+git add Gene_finder_adapted2.py ALL_ORFS.txt  
+git commit -m "Update Gene_finder_adapted2.py ALL_ORFS.txt"  
 
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_adapted2.py {} ALL_ORFS.txt \;  
 ```
 #Checkpoint  
-[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh ALL_ORFS.txt  
--rw-r--r-- 1 chuyascm g-chuyascm 60M Oct  2 16:25 ALL_ORFS.txt  
+[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh ALL_ORFS.txt   
+-rw-r--r-- 1 chuyascm g-chuyascm 60M Oct  2 16:25 ALL_ORFS.txt    
 
-> OUTPUT: ALL_ORFS.txt
+> OUTPUT: ALL_ORFS.txt  
 
 # Question 5. 
 ### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes - Filtration (-l 100)

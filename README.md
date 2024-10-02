@@ -122,11 +122,11 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 # Question 6.  
 ### Find all filtered Open Reading Frames - ribosome binding site (RBS)
 
-touch 
-nano 
+touch Gene_finder_RBS.py  
+nano Gene_finder_RBS.py  
 
-git add RBS_output_problem6.txt  Gene_finder_RBS.py
-git commit -m "Update RBS_output_problem6.txt  Gene_finder_RBS.py"
+git add Gene_finder_RBS.py RBS_output_problem6.txt 
+git commit -m "Gene_finder_RBS.py Update RBS_output_problem6.txt"
 
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_RBS.py {} RBS_output1.txt -l 100 -r AGGAGG -u 20 \;

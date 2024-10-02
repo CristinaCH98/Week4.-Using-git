@@ -95,9 +95,7 @@ git commit -m "Update Gene_finder_adapted2.py ALL_ORFS.txt"
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_adapted2.py {} ALL_ORFS.txt \;  
 ```
-#Checkpoint  
-
- ### File sizes  
+ ### Checkpoint  - File sizes  
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh ALL_ORFS.txt   
 -rw-r--r-- 1 chuyascm g-chuyascm 60M Oct  2 16:25 ALL_ORFS.txt    
 
@@ -117,7 +115,7 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 ```
 #Checkpoint 
 
- ### File sizes  
+ ### Checkpoint  - File sizes 
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh FILTERED_output1.txt    
 -rw-r--r-- 1 chuyascm g-chuyascm 45M Oct  2 17:16 FILTERED_output1.txt    
 
@@ -135,8 +133,7 @@ git commit -m "Gene_finder_RBS.py Update RBS_output_problem6.txt"
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_RBS.py {} RBS_output1.txt -l 100 -r AGGAGG -u 20 \;
 ```
-#Checkpoint    
-
+ ### Checkpoint    
  ### File sizes   
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh RBS_output_problem6.txt  
 -rw-r--r-- 1 chuyascm g-chuyascm 7.9K Oct  2 20:22 RBS_output_problem6.txt  

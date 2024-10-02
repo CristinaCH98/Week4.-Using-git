@@ -76,6 +76,8 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 # Question 5. 
 ### Find all Open Reading Frames in the 14 genomes and discard short ORFs that are unlikely to be functional genes - Filtration (-l 100)
 
+touch Gene_finder_filtered.py
+nano Gene_finder_filtered.py
 
 git add Gene_finder_filtered.py FILTERED_output1.txt  
 git commit -m "Gene_finder_filtered.py FILTERED_output1.txt"  
@@ -86,3 +88,5 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 #Checkpoint
 [chuyascm@login509-02-r Week4_-Using-git]$ ls -lh FILTERED_output1.txt
 -rw-r--r-- 1 chuyascm g-chuyascm 45M Oct  2 17:16 FILTERED_output1.txt
+
+> OUTPUT: FILTERED_output1.txt 

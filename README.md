@@ -48,7 +48,7 @@ Job for file example1.fasta finished
 >OUTPUT: Output2.txt  
 
 # Question 4. 
-### Find all Open Reading Frames in the 14 genomes you downloaded
+### Find all Open Reading Frames in the 14 genomes you downloaded  
 
 touch Gene_finder_adapted2.py  
 nano Gene_finder_adapted2.py

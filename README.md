@@ -22,14 +22,14 @@ git status # check point
 
 
 
-# Question 3.
+# Question 2.
 touch Gene_finder_adapted2.py    
 nano Gene_finder_adapted2.py    
 
 touch example1.fasta   
 nano example1.fasta   
 
-[chuyascm@login509-02-r Week4_-Using-git]$ python Gene_finder_adapted2.py example1.fasta Output2.txt
+python Gene_finder_adapted2.py example1.fasta Output2.txt
 Translating ORFs: 100%| 
 ██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 6/6 [00:00<00:00, 23899.17it/s]  
 >ORF_27_93  

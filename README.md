@@ -74,8 +74,8 @@ nano
 touch 
 nano
 
-git add
-git commit -m ""
+git add ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt
+git commit -m "Update ROSALIND_problem72.py ROSALINDexample.fasta Output_Rosalind72.txt"
 
 ```bash
 python ROSALIND_problem72.py ROSALINDexample.fasta

@@ -143,6 +143,7 @@ find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gen
 > OUTPUT: RBS_output_problem6.txt
 
 
-# Save on Git Repository
- 
-git push -u origin main 
+# Save - Git Repository 
+
+git pull origin main
+git push --set-upstream origin main

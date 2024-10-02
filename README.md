@@ -85,8 +85,8 @@ git commit -m "Gene_finder_filtered.py FILTERED_output1.txt"
 ```bash
 find /home/chuyascm/ncbi_dataset/data -type f -name "*GCF*.fna" -exec python Gene_finder_filtered.py {} FILTERED_output1.txt -l 100 \;
 ```
-#Checkpoint
-[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh FILTERED_output1.txt
--rw-r--r-- 1 chuyascm g-chuyascm 45M Oct  2 17:16 FILTERED_output1.txt
+#Checkpoint  
+[chuyascm@login509-02-r Week4_-Using-git]$ ls -lh FILTERED_output1.txt  
+-rw-r--r-- 1 chuyascm g-chuyascm 45M Oct  2 17:16 FILTERED_output1.txt  
 
 > OUTPUT: FILTERED_output1.txt 

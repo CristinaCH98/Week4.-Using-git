@@ -35,7 +35,7 @@ def main(input_file, output_file, min_length, rbs_seq, upstream_distance):
     """Main function to process the input FASTA file and output protein sequences."""
     min_length_codons = min_length * 3  # Convert codons to nucleotides
 
-    with open(output_file, "w") as f:  # Cambiado a "w" para sobrescribir
+    with open(output_file, "a") as f:  # Cambiado a "w" para sobrescribir
         for record in SeqIO.parse(input_file, "fasta"):
             sequence = Seq(str(record.seq))  # Convertir a objeto Seq
             orfs = find_ORF(sequence)
